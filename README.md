@@ -112,3 +112,15 @@ Please review our [security policy](.github/SECURITY.md) on how to report securi
 This Laravel package is free software distributed under the terms of the MIT license.
 See [LICENSE](LICENSE)
 
+## Local testing of this package
+
+Add the following to `composer.json`
+
+```json
+    "repositories": [
+        {
+            "type": "path",
+            "url": "relative_path_to_package_sources"
+        }
+    ]
+```
